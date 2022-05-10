@@ -35,11 +35,11 @@ for i in list:
 print(list)
 print(intList)
 
-list = [1, 5, 100, 2, 3, 8, 12, 1, 7, 4]
+list = [-100, -1, -5, -2, -3, -8, -12, -7, -4]
 print("Nejvyšší: " + str(max(list)) + ", 2. nejvyšší: " + str(max(list[:list.index(max(list))]+list[list.index(max(list))+1:])))
 
-maxNum = 0
-druMax = 0
+maxNum = float('-inf')
+druMax = float('-inf')
 for num in list:
     if num > maxNum:
         maxNum = num
