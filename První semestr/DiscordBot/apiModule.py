@@ -19,7 +19,7 @@ def addParam(name,value):
     _config["params"][name] = value
     return 200
 
-def getParam(name,value):
+def getParam(name):
     return _config["params"][name]
 
 def getAllParam():

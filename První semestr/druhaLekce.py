@@ -84,3 +84,7 @@ for i in range(pocetPater):
 
 for fruit in fruits:
     print(fruit)
+
+
+
+print("\033c")

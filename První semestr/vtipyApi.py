@@ -19,3 +19,5 @@ else:
     print(resp["setup"])
     input("zmáčky enter")
     print(resp["delivery"])
+
+
