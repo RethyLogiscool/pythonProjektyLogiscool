@@ -22,6 +22,7 @@ if(not math.isnan(x) and not math.isnan(y)):
 print(random.randint(1,100))
 
 def piechart(size, lab):
+    plt.figure(projection='3d')
     plt.pie(size, labels=lab, autopct='%.2f%%')
     plt.show()
 

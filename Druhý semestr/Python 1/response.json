@@ -1,0 +1,32 @@
+{
+  "coord": { "lon": 15.0562, "lat": 50.7671 },
+  "weather": [
+    { "id": 804, "main": "Clouds", "description": "zataženo", "icon": "04d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 0.56,
+    "feels_like": 0.56,
+    "temp_min": -1.01,
+    "temp_max": 2.37,
+    "pressure": 1006,
+    "humidity": 58,
+    "sea_level": 1006,
+    "grnd_level": 963
+  },
+  "visibility": 10000,
+  "wind": { "speed": 0.88, "deg": 36, "gust": 1.3 },
+  "clouds": { "all": 100 },
+  "dt": 1670597466,
+  "sys": {
+    "type": 2,
+    "id": 2011584,
+    "country": "CZ",
+    "sunrise": 1670568574,
+    "sunset": 1670597687
+  },
+  "timezone": 3600,
+  "id": 3071961,
+  "name": "Liberec",
+  "cod": 200
+}
